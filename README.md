@@ -169,7 +169,7 @@ var v = nanmeanpn.ndarray( N, x, 2, 1 );
 
 -   If `N <= 0`, both functions return `NaN`.
 -   If every indexed element is `NaN`, both functions return `NaN`.
--   Depending on the environment, the typed versions ([`dnanmeanpn`][@stdlib/stats/strided/dnanmeanpn], [`snanmeanpn`][@stdlib/stats/base/snanmeanpn], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmeanpn`][@stdlib/stats/strided/dnanmeanpn], [`snanmeanpn`][@stdlib/stats/strided/snanmeanpn], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -232,7 +232,7 @@ console.log( v );
 -   <span class="package-name">[`@stdlib/stats-strided/dnanmeanpn`][@stdlib/stats/strided/dnanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats-base/meanpn`][@stdlib/stats/base/meanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using a two-pass error correction algorithm.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmean`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
--   <span class="package-name">[`@stdlib/stats-base/snanmeanpn`][@stdlib/stats/base/snanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/snanmeanpn`][@stdlib/stats/strided/snanmeanpn]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using a two-pass error correction algorithm.</span>
 
 </section>
 
@@ -328,7 +328,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats-base-nanmean
 
-[@stdlib/stats/base/snanmeanpn]: https://github.com/stdlib-js/stats-base-snanmeanpn
+[@stdlib/stats/strided/snanmeanpn]: https://github.com/stdlib-js/stats-strided-snanmeanpn
 
 <!-- </related-links> -->
 
