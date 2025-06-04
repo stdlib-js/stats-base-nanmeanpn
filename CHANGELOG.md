@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-21)
+## Unreleased (2025-06-04)
+
+<section class="features">
+
+### Features
+
+-   [`9323351`](https://github.com/stdlib-js/stdlib/commit/93233519a69eb2c74d0ab04cc0814def6a9300b2) - add support for accessor arrays and refactor `stats/base/nanmeanpn` [(#7098)](https://github.com/stdlib-js/stdlib/pull/7098)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5657](https://github.com/stdlib-js/stdlib/issues/5657)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`9323351`](https://github.com/stdlib-js/stdlib/commit/93233519a69eb2c74d0ab04cc0814def6a9300b2) - **feat:** add support for accessor arrays and refactor `stats/base/nanmeanpn` [(#7098)](https://github.com/stdlib-js/stdlib/pull/7098) _(by Gururaj Gurram, Athan Reines)_
 -   [`2d70fb0`](https://github.com/stdlib-js/stdlib/commit/2d70fb0472427a0870fd4ce7bb8b30993cf2f939) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`eca796b`](https://github.com/stdlib-js/stdlib/commit/eca796be22370f8e6ffce1157bd077e14428c236) - **refactor:** update paths _(by Aayush Khanna)_
 
@@ -25,9 +48,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
+-   Gururaj Gurram
 
 </section>
 
